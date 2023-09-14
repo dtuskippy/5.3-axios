@@ -22,6 +22,7 @@ app.get("/", async (req, res) => {
   }
 });
 
+
 app.post("/", async (req, res) => {
   try {
     console.log(req.body);
@@ -42,6 +43,8 @@ app.post("/", async (req, res) => {
     });
   }
 });
+
+
 
 app.listen(port, () => {
   console.log(`Server running on port: ${port}`);
